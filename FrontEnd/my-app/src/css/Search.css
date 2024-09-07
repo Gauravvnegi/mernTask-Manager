@@ -1,0 +1,86 @@
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #fafafd;  */
+    padding: 15px 30px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .topnav h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #101011;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 350px;
+    padding: 12px 20px;
+    font-size: 16px;
+    /* color: #333; */
+    /* background-color: #f1f1f1; */
+    border: 2px solid transparent;
+    border-radius: 30px;
+    outline: none;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+  }
+  
+  .search-input::placeholder {
+    color: #635454;
+    font-size: 14px;
+  }
+  
+  .search-input:focus {
+    background-color: #ffffff;
+    border-color: #5AC8FA;
+    box-shadow: 0 0 12px rgba(90, 200, 250, 0.5);
+  }
+  
+  .search-input:hover {
+    background-color: #f9f9f9;
+    border-color: #aaaaaa;
+  }
+  
+  .search-input:focus::placeholder {
+    color: transparent;
+  }
+  /* Search.css */
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f1f1f1;
+  }
+  
+  .search-input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+  
+  .task-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+  }
+  
+  .task-card h3 {
+    margin: 0;
+  }
+  
+  .task-card p {
+    margin: 5px 0 0;
+  }
+  
